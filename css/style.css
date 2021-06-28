@@ -30,7 +30,7 @@ body {
 .section-left {
     width: 400px;
     height: 100%;
-    border-right: 1px solid grey;
+    border-right: 1px solid rgb(175, 175, 175);
 }
 
 .section-right{
@@ -139,4 +139,24 @@ span i {
     height: calc(100% - 180px);
     background-image: url(../img/mine.jpg);
     overflow-y: scroll;
+}
+
+.lower-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.lower-right-section input {
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.lower-right-section i {
+    color: grey;
+    font-size: 30px;
+    margin-left: 0;
 }
