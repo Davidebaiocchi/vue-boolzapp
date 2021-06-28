@@ -30,7 +30,7 @@ body {
 .section-left {
     width: 400px;
     height: 100%;
-    border-right: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(230, 230, 230);
 }
 
 .section-right{
@@ -66,6 +66,10 @@ i {
     margin-left: 20px;
     font-size: 25px;
     cursor: pointer;
+}
+
+ul {
+    padding-left: 0;
 }
 
 span i {
@@ -126,8 +130,6 @@ span i {
 }
 
 
-
-
 /* right-main section */
 .lower-right-section {
     height: 90px;
@@ -153,10 +155,17 @@ span i {
     height: 50px;
     border-radius: 5px;
     font-size: 16px;
+    padding: 0 20px;
 }
 
 .lower-right-section i {
     color: grey;
     font-size: 30px;
     margin-left: 0;
+}
+
+.friend {
+    background-color: white;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
 }

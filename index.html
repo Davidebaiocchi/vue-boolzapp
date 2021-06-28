@@ -16,8 +16,8 @@
             
         </div>
 
-        <div class="container-main">
-             <div class="section-left">
+        <div class="container-main" id="root">
+            <div class="section-left">
                 <div class="section-top-lr">
                     <img src="img/bandit.jpg">
                     <span>Bandit</span>
@@ -39,14 +39,19 @@
                 </div>
                 <!-- contatti -->
                 <div class="contancts">
-
+                    <ul>
+                        <li v-for="(contact, avatar) in contacts" class="friend section-top-lr">
+                            <img :src="contact.avatar">
+                            {{ contact.name }}
+                        </li>
+                    </ul>
                 </div>
-             </div> 
+            </div> 
 
-             <div class="section-right">
+            <div class="section-right">
                 <div class="section-top-lr">
                     <img src="img/iq.jpg">
-                    <span>Iq <i class="fas fa-heart"></i> <br> <span class="ultimoaccesso">Ultimo accesso oggi alle 20.48</span></span>
+                    <span>Iq <br> <span class="ultimoaccesso">Ultimo accesso oggi alle 20.48</span></span>
 
                     <div class="icons-friend">
                         <i class="fas fa-search"></i>
