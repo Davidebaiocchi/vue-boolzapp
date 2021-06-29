@@ -166,7 +166,7 @@ var app = new Vue(
                     messages: [
                         {
                             date: '15.30',
-                            text: 'Ho appena sconfitto Vegeta per la dodicesima volta ahha, Mi prepari da mangiare?',
+                            text: 'Mi stan chiamando masochista.. sai il motivo?',
                             status:'received'
                         },
                     ]
@@ -178,7 +178,12 @@ var app = new Vue(
                     messages: [
                         {
                             date: '15.30',
-                            text: 'Ho appena sconfitto Vegeta per la dodicesima volta ahha, Mi prepari da mangiare?',
+                            text: 'L crede di potermi battere in astuzia e sopratutto a tennis.',
+                            status:'received'
+                        },
+                        {
+                            date: '15.31',
+                            text: 'Evidentemente non ha ben capito, poverino. Meglio se continua a mangiare la cioccolata in camera',
                             status:'received'
                         },
                     ]
