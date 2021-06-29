@@ -25,6 +25,7 @@ body {
     top: 0;
     left: 10%;
     display: flex;
+    font-family: 'Lato', sans-serif;
 }
 
 .section-left {
@@ -57,8 +58,8 @@ img {
 }
 
 .icons-friend {
-    position: relative;
-    left: 670px;
+    position: absolute;
+    right: 20px;
 }
 
 i {
@@ -129,6 +130,11 @@ span i {
     color: rgb(165, 165, 165);
 }
 
+.contancts {
+    overflow-y: scroll;
+    height: 638px;
+}
+
 
 /* right-main section */
 .lower-right-section {
@@ -168,4 +174,40 @@ span i {
     background-color: white;
     border-bottom: 1px solid rgb(240, 240, 240);
     cursor: pointer;
+}
+
+/* box messaggi */
+.chat-box {
+    height: calc(100% - 140px);
+    background-image: url(../img/mine.jpg);
+    padding: 60px;
+}
+
+.message {
+    min-width: 300px;
+    max-width: 500px;
+    margin-bottom: 60px;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    clear: both;
+}
+
+.message.sent {
+    background-color: #d5f9ba;
+    float: right;
+}
+
+.message.received {
+    background-color: white;
+    float: left;
+}
+
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    padding: 10px;
+    color: #a7a7a7;
 }
