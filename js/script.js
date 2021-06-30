@@ -10,119 +10,145 @@ var app = new Vue(
             isActive: false,
             contacts:[
                 {
-                    name: 'Iq',
-                    avatar: 'img/iq.jpg',
+                    name: 'Saitama',
+                    avatar: 'img/saitama.jpg',
                     visible: true,
                     messages: [
-            
                         {
                             date: '15.30',
-                            text: 'Hai preso il visore?',
+                            text: 'E anche oggi non ho incontrato nessuno che mi possa far divertire',
+                            status:'received'
+                        },
+                        {
+                            date: '15.32',
+                            text: 'Che noia però',
+                            status:'received'
+                        },
+                        {
+                            date: '15.33',
+                            text: 'Ringrazia pelato!',
                             status:'sent'
                         },
                         {
-                            date: '15.30',
-                            text: 'Ah e ricordati il giubotto!',
-                            status:'sent'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Si ho preso tutto stai tranquillo!!',
+                            date: '15.40',
+                            text: 'Se ti prendo ti ammazzoo!',
                             status:'received'
                         },
                     ]
                 },
                 {
-                    name: 'Fuze',
-                    avatar: 'img/fuze.jpg',
+                    name: 'C18',
+                    avatar: 'img/c-18.jpg',
                     visible: true,
                     messages: [
                         {
-                            date: '15.30',
-                            text: 'Prendi le mineee!',
+                            date: '15.33',
+                            text: 'Abbiondaa!',
                             status:'sent'
                         },
                         {
                             date: '15.30',
-                            text: 'Quanto sei lento mamma mia',
-                            status:'sent'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Sto arrivando, non rompere!',
-                            status:'received'
-                        },
-                    ]
-                },
-                {
-                    name: 'Tatcher',
-                    avatar: 'img/tatcher.jpg',
-                    visible: true,
-                    messages: [
-                        {
-                            date: '15.30',
-                            text: 'Le emp?',
-                            status:'sent'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Già prese, tra due minuti sono da te',
+                            text: 'Hey, come stai?',
                             status:'received'
                         },
                         {
-                            date: '15.30',
-                            text: 'Sei il migliore!',
+                            date: '15.33',
+                            text: 'Tutto bene dai tu? ancora arrabbiata con Crilin? aahha',
+                            status:'sent'
+                        },
+                        {
+                            date: '15.33',
+                            text: 'Lasciamo perdere che è meglio!',
+                            status:'received'
+                        },
+                        {
+                            date: '15.33',
+                            text: 'ahhahhahha',
+                            status:'sent'
+                        },
+                        {
+                            date: '15.33',
+                            text: 'Immaginavo!',
                             status:'sent'
                         },
                     ]
                 },
                 {
-                    name: 'Twitch',
-                    avatar: 'img/twitch.jpg',
+                    name: 'Yugi',
+                    avatar: 'img/yugi.jpg',
                     visible: true,
                     messages: [
                         {
                             date: '15.30',
-                            text: 'Sono passata da te ma non eri a casa, fa sapere quando torni!',
+                            text: 'Hoo perso un pezzo di Exodiaaa!',
                             status:'received'
                         },
                         {
                             date: '15.30',
-                            text: 'Sono fuori con iq, ti ho detto che devi avvisarmi quando passi a casa mia, ci vediamo dopo!',
-                            status:'sent'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Sono stanca di avere solo le briciole..',
+                            text: 'Secondo te una carta falsa funziona uguale?',
                             status:'received'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Ti prometto che la lascio presto piccola',
-                            status:'sent'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Lo dic da 4 mesi',
-                            status:'received'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Questa volta è la volta giusta',
-                            status:'sent'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Vedremo, ma tanto so già come andrà..',
-                            status:'received'
-                        },
-                        {
-                            date: '15.30',
-                            text: 'Ora devo andare, a dopo',
-                            status:'sent'
                         },
                     ]
                 },
+                {
+                    name: 'Conni',
+                    avatar: 'img/conan.jpg',
+                    visible: true,
+                    messages: [
+                        {
+                            date: '15.30',
+                            text: 'Ho capito chi è l assassino!',
+                            status:'received'
+                        },
+                    ]
+                },
+                {
+                    name: 'Ash',
+                    avatar: 'img/ash.jpg',
+                    visible: true,
+                    messages: [
+                        {
+                            date: '15.30',
+                            text: 'Vuoi Pikachu? mi ha proprio rotto con sto pika pika, non lo sopporto più',
+                            status:'received'
+                        },
+                    ]
+                },
+                {
+                    name: 'Mikasa',
+                    avatar: 'img/mikasa.jpg',
+                    visible: true,
+                    messages: [
+                        {
+                            date: '15.30',
+                            text: 'Non riesco ad andare avanti, non riesco a stare senza Eren.',
+                            status:'received'
+                        },
+                        {
+                            date: '15.30',
+                            text: 'Tanto valeva farmi mangiare da lui stesso',
+                            status:'received'
+                        },
+                    ]
+                },
+                {
+                    name: 'Gaa',
+                    avatar: 'img/gaa.jpg',
+                    visible: true,
+                    messages: [
+                        {
+                            date: '15.30',
+                            text: 'Non ne posso più, non potevo avere la volpe o l occhio rosso?',
+                            status:'received'
+                        },
+                        {
+                            date: '15.30',
+                            text: 'Mi tocca pulire la macchina tutti i giorni, manco quando andavo al mare',
+                            status:'received'
+                        },
+                    ]
+                },
+
                 {
                     name: 'Goku',
                     avatar: 'img/goku.jpg',
@@ -198,6 +224,32 @@ var app = new Vue(
                 this.currentMessage = false;
             },
 
+            // funzione per inviare messaggi 
+            addMessage() {
+                const userMessage = {
+                    date: dayjs( ).format('DD/MM/YYYY HH:mm:ss'),
+                    text: this.userInput,
+                    status: 'sent'
+                };
+
+                // devo pushare l'oggetto messaggio dentro l'array di messaggi di un utente
+                if (userMessage.text.length > 0) {
+                    this.contacts[this.currentContact].messages.push(userMessage);
+                    this.userInput = '';
+                };
+
+                setTimeout(() => {
+                    const autoReply = {
+                        date: dayjs( ).format('DD/MM/YYYY HH:mm:ss'),
+                        text: 'Ok',
+                        status: 'received'
+                    };
+                    this.contacts[this.currentContact].messages.push(autoReply);
+
+                }, 1000);
+                
+            },
+
             // funzione per filtrare la ricerca 
             filter() {
                 
@@ -210,6 +262,30 @@ var app = new Vue(
                     };
                 });
             },
+
+            // dropdown 
+            showDropdown(index) {
+                if(this.currentMessage === index) {
+                    this.currentMessage = false;
+                } else {
+                    this.currentMessage = index;
+                };
+            },
+
+            // menu dropdown (optional)
+            menuDropdown() {
+                if(this.isActive === false) {
+                    this.isActive = true;
+                } else {
+                    this.isActive = false;
+                }
+            },
+
+            // funzione per eliminare messaggio
+            deleteMessage (index) {
+                this.contacts[this.currentContact].messages.splice(index, 1);
+                this.currentMessage = false;
+            }
         }    
     }
 )
