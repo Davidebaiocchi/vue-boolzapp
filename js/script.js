@@ -8,6 +8,21 @@ var app = new Vue(
             userFilter: '',
             currentMessage: false,
             isActive: false,
+            messaggiRandom: [
+                "L amore non è qualcosa che cerchi. È qualcosa che dai.",
+                "La vera grandezza di un capo sta proprio nel saper compiere delle scelte quando è l’ora ",
+                "È qualcosa che non posso spiegare ma quando sono insieme a te, ovunque ci troviamo, non ho più paura di niente!",
+                "Tutti noi prima o poi moriamo. Questo significa forse che la vita è priva di significato? Significa che il fatto di essere venuti al mondo non ha alcun senso? Vale lo stesso per i nostri compagni caduti? Quei soldati non hanno avuto significato? No, non è così! A dare loro un significato siamo noi! Quei valorosi e sfortunati caduti gli unici a poterli ricordare siamo noi, i vivi! Noi moriremo qui! E affideremo il nostro significato a chi è rimasto in vita! Questo è l’unico modo che abbiamo per lottare contro questo mondo crudele! ",
+                "Non ci sono scorciatoie!",
+                "Siamo giovani una sola volta!",
+                "Se una persona ti accetta per quello che sei, diventerà di certo la persona più importante della tua vita",
+                "In un mondo senza luce, un fiore è destinato a cadere",
+                "Quando si è in guerra conta solo il numero di nemici che riesci a sconfiggere.",
+                "Ma certamente!",
+                "Tutto questo a me pare che sia assurdo!",
+                "Ma certo.",
+                "Come e a quale scopo dici questo?",
+            ],
             contacts:[
                 {
                     name: 'Saitama',
@@ -238,10 +253,12 @@ var app = new Vue(
                     this.userInput = '';
                 };
 
+                const randomMessageRic = this.messaggiRandom[Math.floor(Math.random() * this.messaggiRandom.length)];
+
                 setTimeout(() => {
                     const autoReply = {
                         date: dayjs( ).format('DD/MM/YYYY HH:mm:ss'),
-                        text: 'Ok',
+                        text: randomMessageRic,
                         status: 'received'
                     };
                     this.contacts[this.currentContact].messages.push(autoReply);
@@ -285,7 +302,7 @@ var app = new Vue(
             deleteMessage (index) {
                 this.contacts[this.currentContact].messages.splice(index, 1);
                 this.currentMessage = false;
-            }
+            },
         }    
     }
 )
